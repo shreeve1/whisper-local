@@ -142,7 +142,7 @@ describe("buildSummaryFilename", () => {
   it("produces titled filename from summary with meeting title", () => {
     const summary = `1. Meeting Title\nWeekly Standup\n\n2. Summary\nText`;
     expect(buildSummaryFilename(summary, ts)).toBe(
-      "Weekly-Standup - 2026-04-24_10-59-58.md",
+      "2026-04-24_10-59-58 - Weekly-Standup.md",
     );
   });
 

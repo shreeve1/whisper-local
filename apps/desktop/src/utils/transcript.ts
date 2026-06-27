@@ -278,7 +278,7 @@ export const buildSummaryFilename = (
   if (title) {
     const safeTitle = sanitizeFilename(title);
     if (safeTitle) {
-      return `${safeTitle} - ${timestamp}.md`;
+      return `${timestamp} - ${safeTitle}.md`;
     }
   }
   return `summary-${timestamp}.md`;
