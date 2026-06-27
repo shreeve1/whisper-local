@@ -38,3 +38,16 @@ apps/desktop/src-tauri/gen/
 # Local agent/session artifacts
 artifacts/
 .worktrees/
+
+# Pi lens cache
+.pi-lens/
+
+# LLM Wiki
+wiki/raw/**/*.pdf
+wiki/raw/**/*.mp4
+wiki/raw/**/*.mov
+wiki/raw/**/*.zip
+wiki/raw/**/*.tar
+wiki/raw/**/*.gz
+wiki/raw/**/*.bin
+wiki/assets/**
